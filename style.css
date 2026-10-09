@@ -1,0 +1,71 @@
+
+/* General page styling */
+
+body {
+  background-color: #faf9f6;
+  color: #333333;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #e8ede6;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+h1 {
+  color: #405b4b;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #66766b;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+/* Main content */
+
+main {
+  max-width: 760px;
+  margin: 50px auto;
+  padding: 0 25px;
+}
+
+section {
+  margin-bottom: 45px;
+}
+
+h2 {
+  color: #405b4b;
+  font-size: 1.5em;
+  border-bottom: 1px solid #cbd5c8;
+  padding-bottom: 8px;
+}
+
+p {
+  font-size: 1.05em;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #e8ede6;
+  text-align: center;
+  padding: 20px;
+  color: #66766b;
+  font-size: 0.85em;
+}
