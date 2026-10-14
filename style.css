@@ -69,3 +69,109 @@ footer {
   color: #66766b;
   font-size: 0.85em;
 }
+
+
+/* Navigation */
+
+nav {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+nav a {
+  color: #405b4b;
+  text-decoration: none;
+  font-size: 0.95em;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+  border-bottom-color: #405b4b;
+}
+
+/* Links */
+
+main a {
+  color: #405b4b;
+  text-underline-offset: 4px;
+}
+
+main a:hover {
+  color: #667f6c;
+}
+
+/* Reflection cards */
+
+.reflection-card {
+  background-color: #ffffff;
+  border: 1px solid #d9e1d7;
+  border-radius: 6px;
+  padding: 22px 26px;
+  margin: 22px 0;
+  transition: box-shadow 0.2s;
+}
+
+.reflection-card:hover {
+  box-shadow: 0 4px 14px rgba(64, 91, 75, 0.09);
+}
+
+.reflection-card h3 {
+  color: #405b4b;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.reflection-card p {
+  color: #555555;
+  margin: 8px 0;
+}
+
+.reflection-card a {
+  font-size: 0.95em;
+}
+
+/* Article pages */
+
+.article-meta {
+  color: #66766b;
+  font-size: 0.9em;
+}
+
+.article-content {
+  margin-top: 35px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+  header {
+    padding: 40px 18px;
+  }
+
+  h1 {
+    font-size: 1.9em;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  main {
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+
+  .reflection-card {
+    padding: 18px;
+  }
+}
