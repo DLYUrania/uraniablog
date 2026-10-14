@@ -5,74 +5,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Urania's Digital Portfolio</title>
+  <title>Home | Urania's Digital Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header id="home">
+  <!-- Header -->
+  <header>
     <h1>Urania's Digital Portfolio</h1>
-    <p>Digital Practice | University of Leeds</p>
 
+    <p class="subtitle">
+      Digital Practice | University of Leeds
+    </p>
+
+    <!-- Navigation -->
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#reflections">Weekly Reflections</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="reflections.html">Weekly Reflections</a>
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
 
-    <section id="about">
-      <h2>About Me</h2>
+    <!-- Welcome Section -->
+    <section>
+      <h2>Welcome</h2>
 
       <p>
-        Cheers! I'm Linyan Duan, aka Urania, a postgraduate student
-        at the University of Leeds.
+        Welcome to my digital portfolio!
+        This website documents my exploration
+        of digital technologies, creative practices,
+        and critical reflections throughout the
+        Digital Practice module.
       </p>
 
       <p>
-        This portfolio documents my experiences
-        with digital technologies, creative
-        experiments, and critical reflections
-        throughout the Digital Practice module.
-      </p>
-
-      <p>
-        I'm interested in exploring how digital
-        technologies shape the ways we communicate,
-        create, and experience everyday life.
+        Here, I record my experiences with
+        digital tools, reflect on workshop activities,
+        and connect practical experiments with
+        ideas from lectures and readings.
       </p>
     </section>
 
-    <section id="reflections">
-      <h2>Weekly Reflections</h2>
+    <!-- Explore Section -->
+    <section>
+      <h2>Explore</h2>
 
-      <p>
-        A collection of my weekly experiments,
-        discoveries, and occasional technical
-        disasters.
-      </p>
+      <div class="reflection-card">
+        <h3>About Me</h3>
 
-      <article>
-        <h3>Week 2 — Building My Website</h3>
         <p>
-          Reflection coming soon.
+          A little about the person behind
+          this portfolio.
         </p>
-      </article>
 
-      <article>
-        <h3>Week 3 — Digital Practice</h3>
+        <a href="about.html">
+          Learn more →
+        </a>
+      </div>
+
+      <div class="reflection-card">
+        <h3>Weekly Reflections</h3>
+
         <p>
-          Reflection coming soon.
+          A collection of experiments,
+          discoveries, and reflections
+          throughout the semester.
         </p>
-      </article>
 
+        <a href="reflections.html">
+          Explore posts →
+        </a>
+      </div>
     </section>
 
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>© 2026 Urania</p>
   </footer>
